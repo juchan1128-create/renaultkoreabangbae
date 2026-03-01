@@ -1,11 +1,88 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>르노코리아 자동차 서비스 센터 방배점</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>서비스 안내</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="hero"></div>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div class="brand-text">
+          <div class="brand-name">르노코리아 자동차 서비스 코너ㄴ 방배점</div>
+          <div class="brand-sub">서비스 안내</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">홈</a>
+        <a href="location.html" class="nav-link">오시는 길</a>
+        <a href="notice.html" class="nav-link">공지</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="section-title">서비스 안내</h1>
+      <p class="section-sub">여기에 서비스 목록을 추가하면 됩니다.</p>
+    </div>
+    <!-- 빠른 문의 바 (상용 사이트 느낌 핵심) -->
+<section class="quickbar">
+  <div class="container quickbar-inner">
+    <div class="quickbar-left">
+      <div class="qb-title">빠른 문의</div>
+      <div class="qb-sub">전화/길찾기/공지 확인을 한 번에</div>
+    </div>
+
+    <div class="quickbar-actions">
+      <a class="action action-primary" href="tel:0200000000">전화하기</a>
+      <a class="action action-ghost" href="location.html">길찾기</a>
+      <a class="action action-ghost" href="notice.html">공지</a>
+    </div>
+  </div>
+</section>
+
+<!-- 위치/영업시간/안내 (정보가 '있어 보이게' 만드는 섹션) -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">오시는 길 · 운영 정보</h2>
+      <p class="section-sub">방문 전 확인하면 좋은 핵심 정보만 정리했습니다.</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="panel">
+        <div class="panel-label">주소</div>
+        <div class="panel-value">서울특별시 서초구 효령로 33</div>
+        <div class="panel-mini">가까운 랜드마크/주차 안내를 한 줄로</div>
+        <a class="panel-link" href="location.html">지도/길찾기 →</a>
+      </div>
+
+      <div class="panel">
+        <div class="panel-label">영업시간</div>
+        <div class="panel-value">월–금 08:30–18:00</div>
+        <div class="panel-mini">토 8:30-16:00/일 휴무</div>
+        <div class="pill-row">
+          <div class="pill">점심 12:00–13:00</div>
+          <div class="pill">접수 마감 17:30/토: 15:30</div>
+        </div>
+      </div>
+
+      <div class="panel panel-accent">
+        <div class="panel-label">연락처</div>
+        <div class="panel-value">02-587-3575</div>
+        <div class="panel-mini">상담/접수는 전화로 빠르게 안내드립니다.</div>
+        <div class="panel-actions">
+          <a class="btn btn-primary" href="tel:025873575">지금 전화</a>
+          <a class="btn btn-ghost" href="service.html">서비스 안내</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
 </body>
 </html>
